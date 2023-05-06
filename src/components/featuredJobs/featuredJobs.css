@@ -1,0 +1,46 @@
+.fj {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.fjItem{
+    flex: 1;
+    gap: 10px;
+
+}
+
+.fjImg{
+    width: 100%;
+    display: flex;
+}
+
+.fjName{
+    font-weight: bold;
+}
+
+.fjJob{
+    font-size: 100;
+
+}
+
+.fjPrice{
+    font-weight: 500;
+}
+
+.fjRating>button{
+    background-color: aliceblue;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+.fpRating>span{
+    font-size: 14px;
+}
