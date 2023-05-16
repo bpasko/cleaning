@@ -145,7 +145,7 @@ const Featured = () => {
                                 <Col>
                                     <div className="text-column">
                                         <p>
-                                            <h2>Usługa "sprzątania po remoncie" polega na przeprowadzeniu kompleksowego sprzątania po zakończeniu prac budowlanych oraz obejmuje:
+                                            <h2>Usługa "sprzątania po remoncie" polega na przeprowadzeniu kompleksowego sprzątania po zakończeniu prac budowlanych i obejmuje:
                                             </h2>
                                             <h4>
                                                 <ul>
