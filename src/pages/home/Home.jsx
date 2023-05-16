@@ -10,21 +10,23 @@ import "./home.css";
 const Home = () => {
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             <Header />
             <div className="homeContainer">
-                <Featured/>
+                <div className="mt-4 mt-md-5">
+                    <Featured />
+                </div>
                 <h1 className="homeTitle">szukajzausluga</h1>
-                <Joblist/>
+                <Joblist />
                 <h1 className="homeTitle">szukajzausluga2</h1>
-                <FeaturedJobs/>
-                <MailList/>
-                <Footer/>
+                <FeaturedJobs />
+                <MailList />
+                <Footer />
 
-        
-            
+
+
             </div>
-            </div>
+        </div>
     );
 };
 
