@@ -1,4 +1,9 @@
 import { faCoffee} from "@fortawesome/free-solid-svg-icons"
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faWineGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBrush } from '@fortawesome/free-solid-svg-icons';
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./header.css"
 import { DateRange } from 'react-date-range';
@@ -50,32 +55,29 @@ const handleSearch = ()=>{
         <div className="header">
             <div className={type === "list" ? "headerContainer listMode" : "headerContainer"}>
             <div className="headerList">   
-                <div className="headerListItem active">
-                <FontAwesomeIcon icon={faCoffee}/>
-                <span>Clean</span>
+                <div className="headerListItem">
+                <FontAwesomeIcon icon={faBuilding}/>
+                <span>Sprzątanie mieszkań</span>
                 </div>
                 <div className="headerListItem">
-                <FontAwesomeIcon icon={faCoffee}/>
-                <span>Vacuum</span>
+                <FontAwesomeIcon icon={faHouse}/>
+                <span>Sprzątanie domów</span>
                 </div>
                 <div className="headerListItem">
-                <FontAwesomeIcon icon={faCoffee}/>
-                <span>Water</span>
+                <FontAwesomeIcon icon={faSuitcase}/>
+                <span>Sprzątanie biur</span>
                 </div>
                 <div className="headerListItem">
-                <FontAwesomeIcon icon={faCoffee}/>
-                <span>Sweep</span>
+                <FontAwesomeIcon icon={faBrush}/>
+                <span>Sprzątanie po remoncie</span>
                 </div>
                 <div className="headerListItem"> 
-                <FontAwesomeIcon icon={faCoffee}/>
-                <span>Wash</span>
+                <FontAwesomeIcon icon={faWineGlass}/>
+                <span>Sprzątanie po wynajmie</span>
                 </div>
             </div>
             {type !== "list" &&
                 <> 
-                <h1 className="headerTitle">platkisniadaniowesathebest</h1>
-            <p className="headerDesc">tylkoteczekoladowe</p>
-            <button className="headerBtn"> Sign in / Register</button>
             <div className="headerSearch">
                 <div className="headerSearchItem">
                     <FontAwesomeIcon icon={faCoffee} className="headerIcon" />

@@ -6,6 +6,8 @@ import {
 import Home from "./pages/home/Home";
 import List from "./pages/list/List";
 import Hotel from "./pages/hotel/hotel";
+import RegistrationForm from "./pages/registration/registration";
+import LoginForm from "./pages/login/login";
 
 function App() {
   return (
