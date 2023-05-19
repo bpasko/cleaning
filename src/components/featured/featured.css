@@ -1,5 +1,5 @@
 .featured{
-    width: 100px;
+    /* width: 100px; */
     max-width: 1024px;
     display: flex;
     justify-content: space-between;
@@ -27,3 +27,44 @@
 
 }
 */
+
+
+/* ustawianie koloru tła w karuzeli */
+.featured-div {
+    background-color: rgb(234, 234, 234);
+    /* background-color: white; */
+  }
+
+
+/* kolor tekstu w caption w karuzeli */
+.caption-black h3 {
+    color: blue;
+  }
+
+/* kolor strzałek - ikon w karuzeli */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='blue'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='blue'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+/* h2 {
+    text-align: justify;
+} */
+
+/* wysokość karuzeli */
+.custom-carousel-item {
+    height: 500px; /* ustalona wysokość Carousel.Item */
+  }
+
+.obrazek {
+    max-width: 100%;
+    max-height: 100%;
+    /* width: auto;
+    height: auto; */
+}
+
+.image-container {
+    height: 100%; /* Ustala wysokość kontenera na 100% */
+}
