@@ -1,8 +1,6 @@
 import "./navbar.css"
 import React from 'react'; 
 import { Link } from 'react-router-dom';
-import RegistrationForm from "../../pages/registration/registration";
-import LoginForm from "../../pages/login/login";
 
  const Navbar = () => {
     return (
@@ -10,9 +8,9 @@ import LoginForm from "../../pages/login/login";
            <div className="navContainer">
             <span className="logo">CLEANING APP</span>
             <div className="navItems" >
-             <Link to="src\pages\registration\registration.jsx">
+             <Link to="/registration">
              <button className="navButton">Register</button></Link>
-             <Link to="src\pages\login\login.jsx">
+             <Link to="/login">
              <button className="navButton">Login</button></Link>
             </div>
            </div>
