@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./login.css"
 
 const LoginForm = () => {
   const [username, setUsername] = useState('');
@@ -10,21 +11,23 @@ const LoginForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
+    <body className="body">
+    <form className="loginForm"onSubmit={handleSubmit}>
+      <input className="inputName"
         type="text"
         placeholder="Nazwa użytkownika lub e-mail"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
-      <input
+      <input className="inputPassword"
         type="password"
         placeholder="Hasło"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button type="submit">Zaloguj się</button>
+      <button className="button" type="submit">Zaloguj się</button>
     </form>
+    </body>
   );
 };
 

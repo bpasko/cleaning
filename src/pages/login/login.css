@@ -1,0 +1,38 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+.loginForm {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid greenyellow;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #186add;
+    box-shadow:0 0 10px 5px #090f17;
+}
+.inputName {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.inputPassword{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.button {
+    display: block;
+    margin-bottom: 10px;
+    color:blue;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow:0 0 10px 3px #090f17;
+    border: 4px solid greenyellow;
+  }  

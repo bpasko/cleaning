@@ -3,30 +3,63 @@
     background-color: #186add;
     display: flex;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
-  
+  .navbar::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+  }
+  .navbar::after{
+    background-image: linear-gradient(to bottom, #186add, blue);
+  }
   .navContainer{
     width: 100%;
-    color: white;
+    color: azure;
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
   
   .logo{
-    font-weight: 500;
-    margin-left: 20px;
-    font-size: 150%;
+    font-weight:bold;
+    word-spacing: -5px;
+    letter-spacing: -5spx;
+    margin-left: 50px;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 
+  }
+
+  .paragraph{
+    font-size: 150%;
+    font-family: 'Brush Script MT', cursive;
+    display: block;
+    margin-top: 70px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  
   }
 
   .navButton{
     margin-left: 20px;
     border: none;
-    padding: 5px 10px;
     cursor: pointer;
     color:blue;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow:0 0 10px 3px #090f17;
+    border: 4px solid greenyellow;
 
+  }
+  .navButton:hover{
+    background-color: cyan;
   }
 
   .navItems{

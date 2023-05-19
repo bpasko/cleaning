@@ -129,7 +129,7 @@ const handleSearch = ()=>{
                 </div>}  
                 </div>
                 <div className="headerSearchItem">
-                   <div className="headerBtn" onClick={handleSearch}>Search
+                   <div className="headerBtn" onClick={handleSearch}>ZŁÓŻ ZLECENIE
                    </div>
                 </div> </> }
             </div>
