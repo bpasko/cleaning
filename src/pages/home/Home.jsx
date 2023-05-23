@@ -14,9 +14,10 @@ const Home = () => {
             <Header />
             <div className="homeContainer">
                 <div className="mt-4 mt-md-5">
+                <h1 className="homeTitle mb-4"><strong>Usługi główne</strong></h1>
                     <Featured />
                 </div>
-                <h1 className="homeTitle">szukajzausluga</h1>
+                <h1 className="homeTitle mb-4 mt-4"><strong>Usługi dodatkowe</strong></h1>
                 <Joblist />
                 <h1 className="homeTitle">szukajzausluga2</h1>
                 <FeaturedJobs />
