@@ -8,10 +8,11 @@ import img1 from './files/piekarnikAmica.jpeg';
 import img2 from './files/kuchenkaBeko.jpeg';
 import img3 from './files/lodowkaCandy.jpeg';
 import img4 from './files/mikrofalowkaOk.jpeg';
-import img5 from './files/okno.png';
+import img5 from './files/oknoNew.jpeg';
 import img6 from './files/odkurzacz.jpeg';
 import img7 from './files/kontener.jpeg';
 import img8 from './files/zelazko.jpg';
+import img9 from './files/wnetrzeSzafy.jpg';
 
 
 const Joblist = () => {
@@ -53,16 +54,22 @@ const Joblist = () => {
     },
     {
       title: 'Prasowanie',
-      description: 'cena: 50zł/h.',
+      description: 'cena: 50zł/h',
       image: img8
     },
+    {
+      title: 'Sprzątanie wnętrza szafy',
+      description: 'cena: 50zł/h',
+      image: img9
+    },
+
     // Dodaj dane dla kolejnych kart
   ];
   return (
-    <Row xs={1} md={4} className="g-4">
+    <Row xs={1} md={3} className="g-4">
       {cardData.map((card, idx) => (
-        <Col key={idx} >
-          <Card border="primary">
+        <Col key={idx}>
+          <Card border="primary" className="custom-card">
             <Card.Img variant="top" src={card.image} className="card-image image-center"/>
             <Card.Body className="text-center">
               <Card.Title>{card.title}</Card.Title>

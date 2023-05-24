@@ -52,3 +52,11 @@
     color: blue;
     font-weight: bold
   }
+
+  .custom-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Dodaj dodatkowe style według potrzeb */
+  }
